@@ -1,0 +1,22 @@
+const PRODUCTS = [
+    { id: 1, name: 'Women Cotton Trench Coat', category: 'women', price: 680, oldPrice: 850, img: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500', rating: 4.5, badge: 'SALE' },
+    { id: 2, name: 'Men Slim Fit Shirt', category: 'men', price: 450, oldPrice: 0, img: 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500', rating: 4.8, badge: 'NEW' },
+    { id: 3, name: 'Kids Colorful Outfit', category: 'kids', price: 280, oldPrice: 350, img: 'https://images.unsplash.com/photo-1522771930-78848d9293e8?w=500', rating: 4.3, badge: 'SALE' },
+    { id: 4, name: 'Nike Sport Sneakers', category: 'shoes', price: 1250, oldPrice: 0, img: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500', rating: 4.9, badge: 'NEW' },
+    { id: 5, name: 'Women Denim Jeans', category: 'women', price: 550, oldPrice: 700, img: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500', rating: 4.6, badge: 'SALE' },
+    { id: 6, name: 'Men Formal Blazer', category: 'men', price: 1850, oldPrice: 0, img: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500', rating: 4.7, badge: '' },
+    { id: 7, name: 'Women Leather Handbag', category: 'shoes', price: 780, oldPrice: 950, img: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500', rating: 4.4, badge: 'SALE' },
+    { id: 8, name: 'Kids Warm Sweatshirt', category: 'kids', price: 320, oldPrice: 0, img: 'https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=500', rating: 4.2, badge: '' },
+    { id: 9, name: 'Men Sport T-Shirt', category: 'men', price: 380, oldPrice: 480, img: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500', rating: 4.5, badge: 'SALE' },
+    { id: 10, name: 'Women Evening Dress', category: 'women', price: 920, oldPrice: 0, img: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500', rating: 4.8, badge: 'NEW' },
+    { id: 11, name: 'Women Comfort Sneakers', category: 'shoes', price: 890, oldPrice: 1100, img: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500', rating: 4.6, badge: 'SALE' },
+    { id: 12, name: 'Kids Summer Shorts', category: 'kids', price: 180, oldPrice: 0, img: 'https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=500', rating: 4.1, badge: '' },
+    { id: 13, name: 'Women Summer Dress', category: 'women', price: 620, oldPrice: 780, img: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500', rating: 4.7, badge: 'SALE' },
+    { id: 14, name: 'Men Casual Jacket', category: 'men', price: 980, oldPrice: 0, img: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500', rating: 4.6, badge: 'NEW' },
+    { id: 15, name: 'Kids Party Dress', category: 'kids', price: 420, oldPrice: 550, img: 'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=500', rating: 4.5, badge: 'SALE' },
+    { id: 16, name: 'Women High Heels', category: 'shoes', price: 1150, oldPrice: 0, img: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500', rating: 4.4, badge: '' },
+    { id: 17, name: 'Men Leather Shoes', category: 'men', price: 1450, oldPrice: 1700, img: 'https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=500', rating: 4.7, badge: 'SALE' },
+    { id: 18, name: 'Women Wool Sweater', category: 'women', price: 490, oldPrice: 0, img: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500', rating: 4.5, badge: '' },
+    { id: 19, name: 'Kids Denim Jacket', category: 'kids', price: 380, oldPrice: 480, img: 'https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=500', rating: 4.3, badge: 'SALE' },
+    { id: 20, name: 'Men Running Shoes', category: 'shoes', price: 1350, oldPrice: 0, img: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500', rating: 4.8, badge: 'NEW' }
+];
